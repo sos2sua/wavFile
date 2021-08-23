@@ -41,10 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D014D7626D4107000145656 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				8D925B6026D224FF00D61C14 /* main.cpp */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
 		8D925B5426D224FF00D61C14 = {
 			isa = PBXGroup;
 			children = (
-				8D925B5F26D224FF00D61C14 /* src */,
+				8D014D7626D4107000145656 /* test */,
+				8D925B5F26D224FF00D61C14 /* wavHeader */,
 				8D925B5E26D224FF00D61C14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,14 +66,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D925B5F26D224FF00D61C14 /* src */ = {
+		8D925B5F26D224FF00D61C14 /* wavHeader */ = {
 			isa = PBXGroup;
 			children = (
 				8D014D7326D2261A00145656 /* Wave.cpp */,
 				8D014D7226D2261A00145656 /* Wave.hpp */,
-				8D925B6026D224FF00D61C14 /* main.cpp */,
 			);
-			path = src;
+			path = wavHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
